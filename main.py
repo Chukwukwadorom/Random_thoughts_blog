@@ -11,7 +11,7 @@ from forms import CreatePostForm, RegistrationForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from dotenv import load_dotenv
 import os
-import psycopg2
+
 
 load_dotenv()
 app = Flask(__name__)
